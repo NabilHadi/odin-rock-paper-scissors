@@ -75,8 +75,8 @@ paperBtn.addEventListener("click", clickHandler);
 scissorsBtn.addEventListener("click", clickHandler);
 
 resetBtn.addEventListener("click", () => {
-  resultDiv.textContent = "";
-  scoreDiv.textContent = "";
+  resultDiv.textContent = "Click on a button to start the game";
+  scoreDiv.textContent = "Whoever gets 5 points first wins the game!";
   playerScore = 0;
   computerScore = 0;
 
@@ -84,6 +84,9 @@ resetBtn.addEventListener("click", () => {
   paperBtn.addEventListener("click", clickHandler);
   scissorsBtn.addEventListener("click", clickHandler);
 });
+
+resultDiv.textContent = "Click on a button to start the game";
+scoreDiv.textContent = "Whoever gets 5 points first wins the game!";
 
 
 
