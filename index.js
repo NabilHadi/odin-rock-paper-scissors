@@ -56,8 +56,8 @@ const rockBtn = document.querySelector("#rockBtn");
 const paperBtn = document.querySelector("#paperBtn");
 const scissorsBtn = document.querySelector("#scissorsBtn");
 const resetBtn = document.querySelector("#resetBtn");
-const resultDiv = document.querySelector("#resultBtn");
-const scoreDiv = document.querySelector("#scoreBtn");
+const resultDiv = document.querySelector("#result");
+const scoreDiv = document.querySelector("#score");
 
 function clickHandler(event) {
   resultDiv.textContent = playRound(event.target.textContent.toLowerCase(), computerPlay());

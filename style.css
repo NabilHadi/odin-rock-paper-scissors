@@ -12,6 +12,13 @@ body {
   background-color: rgb(231, 229, 229);
 }
 
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .container {
   display: flex;
   height: 100%;
@@ -36,4 +43,8 @@ body {
 
 .btn:hover {
   opacity: 0.9;
+}
+
+.btn:active {
+  opacity: 1;
 }
