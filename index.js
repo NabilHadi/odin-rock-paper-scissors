@@ -90,3 +90,4 @@ scoreDiv.textContent = "Whoever gets 5 points first wins the game!";
 
 
 
+
